@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class DismissibleUndoExample extends StatefulWidget {
-  const DismissibleUndoExample({super.key});
+class ReordableListViewChallenge extends StatefulWidget {
+  const ReordableListViewChallenge({super.key});
 
   @override
-  State<DismissibleUndoExample> createState() => _DismissibleUndoExampleState();
+  State<ReordableListViewChallenge> createState() => _ReordableListViewChallengeState();
 }
 
-class _DismissibleUndoExampleState extends State<DismissibleUndoExample> {
+class _ReordableListViewChallengeState extends State<ReordableListViewChallenge> {
   List<String> items = List.generate(10, (index) => "Item ${index + 1}");
 
   String? _removedItem;
