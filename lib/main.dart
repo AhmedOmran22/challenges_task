@@ -1,6 +1,7 @@
+import 'package:challenges_task/challenges/drag_drop_view.dart';
 import 'package:flutter/material.dart';
 
-import 'challenges/loading_animation_challenge.dart';
+// import 'challenges/loading_animation_challenge.dart';
 // import 'challenges/reordable_list_view_challenge.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoadingAnimationChallenge(),
+      home: const DragDropView(),
     );
   }
 }
